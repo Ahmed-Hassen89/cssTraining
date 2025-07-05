@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+/* @media print {
+    * {
+        font-size: 200px;
+    }
+} */
+/* div,
+p {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 10px auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width : 570px) {
+
+    div {
+        width: 100%;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    p {
+        font: initial;
+    }
+
+}
+
+@media screen and (min-width :571px) and (max-width : 1000px) {
+
+    div {
+        width: 45%;
+        font-weight: bold;
+        font-size: large;
+        color: red;
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    p {
+        font: initial;
+        color: initial;
+    }
+
+}
+@media screen and (min-width :1001px)  {
+
+    div {
+        width: 20%;
+        font-weight: bold;
+        font-size: large;
+        color: teal;
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    p {
+        font: initial;
+        color: initial;
+    }
+
+} */
+/* div,
+p {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 10px auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width : 570px) {
+
+    div {
+        width: 100%;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    p {
+        font: initial;
+    }
+
+}
+
+@media screen and (min-width :571px) and (max-width : 1000px) {
+
+    div {
+
+        font-weight: bold;
+        font-size: large;
+        color: red;
+        display: inline-block;
+        margin-left: 1%;
+    }
+
+    .one {
+        width: 93%;
+    }
+
+    div:not(:first-child) {
+        width: 30%;
+    }
+
+    p {
+        font: initial;
+        color: initial;
+    }
+
+}
+
+@media screen and (min-width :1001px) {
+
+    div {
+        
+        font-weight: bold;
+        font-size: large;
+        color: teal;
+        display: inline-block;
+        margin-left: 2%;
+    }
+    .one,
+    .four {
+        width: 92%;
+    }
+    .two,
+    .three{
+        width: 45%;
+        margin-left: 2%;
+    }
+    p {
+        font: initial;
+        color: initial;
+    }
+
+} */
+
+div {
+    background-color: blueviolet;
+    width: 600px;
+    height: 60px;
+    margin: 150px;
+}
+
+/* 
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+/* 
+.arrow {
+    position: relative;
+    background-color: aquamarine;
+}
+
+.arrow::before {
+    content: "";
+    width: 10%;
+    padding-top: 10%;
+    background-color: inherit;
+    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -moz-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    -o-transform: translate(-50%, -50%) rotate(45deg);
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    z-index: -1;
+}
+
+.arrow.top::before {
+    top: 0px;
+    left: 50%;
+}
+
+.arrow.left::before {
+    top: 50%;
+    left: 0px;
+}
+
+.arrow.right::before {
+    top: 50%;
+    left: 100%;
+}
+
+.arrow.bottom::before {
+    top: 100%;
+    left: 50%;
+} */
+ div{
+    box-shadow: 
+0px 8px 5px -5px RGBA(0,0,0,.6),
+inset 3px 3px 5px 0px RGBA(10000,1000,0,.1), 
+inset -3px -3px 5px 0px RGBA(255,255,255)
+ }

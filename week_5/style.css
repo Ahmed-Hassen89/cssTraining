@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-transform: capitalize;
+    word-spacing: 1.5;
+
+}
+
+/*
+
+.parent {
+    width: 500px;
+    height: 300px;
+    background-color: #eee;
+    margin: 60px auto;
+    padding: 30px;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    transition-duration: .5s;
+
+
+}
+
+
+.chil {
+    background-color: #dddedb;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 10px auto;
+    position: absolute;
+    float: left;
+    top: 90px;
+    left: 40px;
+    transition-delay: .5s;
+    transition-duration: .5s;
+
+
+}
+
+.parent:hover {
+    margin-top: 30px;
+}
+
+.parent:hover .chil {
+    top: 110px;
+} 
+    div {
+
+        background-color: #eeeeee !important;
+        width: 400px !important;
+        height: 60px !important;
+        margin: 10px auto !important;
+        color: #eeeeee !important;
+        text-wrap: wrap;
+        overflow: hidden;
+        position: relative;
+        border: none !important;
+        text-indent: 0px;
+        user-select: none;
+
+
+    }
+
+    div::before {
+        content: "elzero";
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        float: left;
+        top: 40%;
+        left: 200px;
+    } */
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+} */
+
+div {
+    width: 400px;
+    margin: 10px auto;
+    border: 2px solid var(--mainColor, black);
+    color: var(--mainColor, red);
+    padding: var(--mainPadding, 10px);
+}

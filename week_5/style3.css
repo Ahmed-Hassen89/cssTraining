@@ -1,0 +1,111 @@
+:root {
+    --main_background-color: #dddddd;
+    --chil-background-color: #eeeeee;
+    --main-padding: 10px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+}
+
+.page {
+    background-color: #eeeeee;
+    display: flex;
+    width: 95%;
+    padding: var(--main-padding);
+    flex-flow: row wrap;
+}
+
+
+
+.header,
+.main-area,
+.footer {
+    display: flex;
+    background-color: var(--chil-background-color);
+    width: 100%;
+    margin: 5px 0px;
+    justify-content: space-between;
+
+}
+
+.header {
+    height: 30px;
+
+
+}
+
+
+
+.links {
+    width: 80%;
+    background-color: var(--main_background-color);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    padding-right: 5px;
+
+}
+
+.links li {
+
+
+    display: flex;
+    background-color: var(--main_background-color);
+    padding: 2px;
+    margin: 2px;
+
+}
+
+.logo {
+    width: 15%;
+    background-color: var(--main_background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--main-padding);
+}
+
+.main-area .content {
+    width: 64%;
+    height: 240px;
+    background-color: var(--main_background-color);
+    padding: var(--main-padding);
+}
+
+.main-area .sidebar {
+    width: 28%;
+    height: 240px;
+    background-color: var(--main_background-color);
+    padding: var(--main-padding);
+}
+
+
+
+
+
+
+
+
+.footer div {
+    width: 50%;
+    display: flex;
+    padding: var(--main-padding);
+    height: 30px;
+    align-items: center;
+    background-color: var(--main_background-color);
+
+}
+
+.design {
+    display: flex;
+    justify-content: flex-end;
+
+
+}

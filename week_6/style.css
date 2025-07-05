@@ -1,0 +1,110 @@
+/* div {
+    width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #eeeeee;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: center;
+    border-left: 10px solid #f44236;
+    border-right: 10px solid #673ab7;
+    position: relative;
+
+}
+
+div::first-letter {
+    color: #f44236;
+}
+
+div::before,
+div::after {
+    content: "";
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    background-image: linear-gradient(to right,
+
+            #f44236 20%, #f44236 20%,
+            #2795ec 20%, #2795ec 40%,
+            #4cb050 40%, #4cb050 60%,
+            #ea1e63 60%, #ea1e63 80%,
+            #673ab7 80%);
+
+}
+
+div::before {
+    top: 0;
+    left: 0;
+}
+
+div::after {
+    bottom: 0;
+    left: 0;
+} */
+
+.parent {
+    width: 600px;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column;
+
+
+}
+
+.parent div {
+    width: 100%;
+    height: 40px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.onei,
+.twoi,
+.threei {
+    width: 100%;
+    /* background-color: #eeeeee; */
+    height: 100%;
+    border: none;
+
+
+}
+
+.onei::after,
+.twoi::after,
+.threei::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right, #e4493e 50%, #e4493e 50%, #0d9184 50%);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+
+.one,
+.two,
+.three {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #eeeeee;
+    caret-color: #e4493e;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+
+/* .one:focus,
+.two:focus, */
+.three::placeholder
+{
+    content: "ttrgr";
+    
+}

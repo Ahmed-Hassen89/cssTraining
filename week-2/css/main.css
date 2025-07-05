@@ -1,0 +1,91 @@
+/* div div span {
+    color: red;
+}
+
+div span {
+    color: blue;
+}
+
+p,
+div:is(.title) {
+    color: green;
+}
+
+.zero,
+.one,
+.two,
+.three {
+    color: white;
+    background-color: red;
+    max-width: 400px;
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+    max-height: 30px;
+    font-size: larger;
+    overflow: hidden;
+}
+
+.elzero {
+    font-family: sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 6px 2px brown, 4px 3px blue, 8px 2px green
+} */
+/* 
+.one,
+.two,
+.three {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.one {
+    text-transform: uppercase;
+    word-spacing: 8px;
+}
+
+.two {
+    text-transform: capitalize;
+    word-spacing: 4px;
+}
+
+.three {
+    text-transform: lowercase;
+    word-spacing: 4px;
+} */
+/* 
+a {
+    display: inline;
+    text-transform: capitalize;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(11, 164, 164);
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    border-bottom: 8px solid rgb(4, 87, 87);
+    letter-spacing: 3px;
+} */
+div {
+    margin: 30px;
+    padding: 20px;
+
+    border: 2px solid rgb(21, 54, 202);
+    text-align: center;
+}
+
+p {
+    border: inherit;
+    padding: inherit;
+    background-color: gray;
+}

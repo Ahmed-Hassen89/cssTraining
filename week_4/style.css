@@ -1,0 +1,180 @@
+/* div {
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    font-size: large;
+
+}
+
+div:empty {
+    background-color: red;
+} 
+
+div {
+    width: 400px;
+    height: 40px;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    ss
+}
+
+div::first-letter {
+
+
+    margin-top: -11px;
+    content: "";
+    background-color: red;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    float: left;
+    margin-left: -37px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    margin: auto;
+    width: 400px;
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    height: 40px;
+    padding-left: 10px;
+    border-left: 5px solid red;
+
+
+}
+
+p::after {
+    content: "";
+    position: absolute;
+    float: left;
+    border: 10px solid red;
+    border-color: transparent red transparent transparent;
+    left: -24px;
+    top: 9px;
+}
+
+
+
+
+
+
+
+
+p::before {
+    content: attr(data-person);
+    background-color: #eeeeee;
+    width: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    position: absolute;
+    float: left;
+    margin-top: 0;
+    margin-left: -130px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    width: 400px;
+    padding: 15px;
+    margin: 10px auto;
+    background-color: #eeeeee;
+    text-align: left;
+    border-right: 5px solid red;
+    position: relative;
+    counter-increment: ali;
+}
+
+
+
+p::before {
+
+
+    content: counter(ali);
+
+    position: absolute;
+    float: left;
+    background-color: red;
+    padding: 12.5px;
+    left: -50px;
+    top: 0px;
+    font-size: larger;
+    color: aliceblue;
+    width: 30px;
+    text-align: center;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid black;
+    margin: 15px 40px;
+    position: relative;
+    box-shadow: 8px 8px 0px #2394ec,
+        -8px -8px 0px #ea1e63;
+    counter-increment: adi;
+    display: inline-flex;
+
+}
+
+div::before {
+    content: "Element";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    line-height: 5;
+    padding-left: 9px;
+
+}
+
+div::after {
+    content: counter(adi);
+    padding: 0px 5px;
+    font-size: large;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #726e6e;
+    float: left;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 40px 1px;
+
+}*/

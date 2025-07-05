@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+:root {
+    --boredr-size: 10px
+}
+
+.elzero-lines {
+    width: 400px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: aquamarine;
+    font: bolder 30px / 30px arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: var(--boredr-size) solid blue;
+    border: var(--boredr-size) solid red;
+    position: relative;
+
+
+}
+
+.elzero-lines::before {
+    content: "";
+    width: calc(99.8% + (4 * var(--boredr-size)));
+    height: calc(99.8% + (4 * var(--boredr-size)));
+    outline: var(--boredr-size) solid black;
+    border: var(--boredr-size) solid green;
+    position: absolute;
+    translate: 0px .2px;
+
+}
+
+/* div{
+    font:  bold 30px/30px Arial;
+    background-color: aqua;
+}
+ */
+/*
+.input-box {
+    width: 300px;
+    height: 40px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    caret-color: #009788;
+
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.prefix {
+    height: 80%;
+    width: 60px;
+    background-color: #009788;
+    font: 15px/40px arial;
+    color: white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px 0px 0px 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box>input {
+    height: 80%;
+    width: calc(98% - 60px);
+    outline: none;
+    border: none;
+    text-indent: 10px;
+} */
+
+/* .menu{
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-evenly;
+    overflow: hidden;
+    
+}
+span{
+    width: 80%;
+    height: 12%;
+    background-color: black;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition-duration: .9s;
+   
+}
+
+.menu:hover span {
+    background-color: red;
+   
+}
+.menu:hover span:first-child {
+    transform: translate(-2% , 220%) rotate(45deg);
+    -webkit-transform: translate(-2% , 220%) rotate(405deg);
+    -moz-transform: translate(-2% , 220%) rotate(45deg);
+    -ms-transform: translate(-2% , 220%) rotate(45deg);
+    -o-transform: translate(-2% , 220%) rotate(45deg);
+}
+.menu:hover span:last-child {
+    transform: translate(-1% , -254%) rotate(-45deg);
+    -webkit-transform: translate(-1% , -254%) rotate(-405deg);
+    -moz-transform: translate(-1% , -254%) rotate(-45deg);
+    -ms-transform: translate(-1% , -254%) rotate(-45deg);
+    -o-transform: translate(-1% , -254%) rotate(-45deg);
+}
+.menu:hover span:nth-child(2) {
+    transform: translate(-130% , 0%);
+    -webkit-transform: translate(-130% , 0%);
+    -moz-transform: translate(-130% , 0%);
+    -ms-transform: translate(-130% , 0%);
+    -o-transform: translate(-130% , 0%);
+} */
+
+/* a[href *= 'courses']{
+    color: red;
+} */
+
+/* ul,
+li {
+    list-style-type: none;
+    list-style-position: inside;
+
+    padding: 5px;
+    font: 13px/25px arial;
+    margin: 5px;
+
+
+}
+
+ul {
+    background-color: #eee;
+}
+
+li {
+    background-color: #ffffff;
+    position: relative;
+    padding-left: 40px;
+
+}
+
+ul>li:nth-child(4),
+ul>li>ul {
+    background-color: #dddddd;
+}
+
+body>ul>li::before {
+
+    counter-increment: li1;
+    content: counter(li1);
+
+    background-color: #dddddd;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+body {
+    counter-reset: li1;
+
+}
+
+body>ul>li:nth-child(4)::before {
+    background-color: white;
+    color: black;
+    counter-reset: li2;
+}
+
+body>ul>li>ul>li::before {
+    counter-increment: li2;
+    content: "4." counter(li2);
+
+    background-color: #009788;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+
+} */
